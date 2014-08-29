@@ -1,4 +1,4 @@
-;;; jape-mode -- An Emacs editing mode mode for GATE's JAPE files
+;;; jape-mode --- An Emacs editing mode mode for GATE's JAPE files
 
 ;; Copyright (C) 2005 Ilya Goldin -- http://www.pitt.edu/~goldin
 ;; Copyright (C) 2014 Ryan Smith -- http://www.github.com/tanzoniteblack
