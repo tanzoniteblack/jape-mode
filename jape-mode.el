@@ -47,6 +47,7 @@
     jape-mode-map)
   "Keymap for JAPE major mode")
 
+;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.jape\\'" . jape-mode))
 
 (defconst jape-font-lock-keywords
