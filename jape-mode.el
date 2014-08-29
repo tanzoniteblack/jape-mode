@@ -82,8 +82,8 @@
 
 \\{jape-mode-map}"
   (set-syntax-table jape-mode-syntax-table)
-  (setq-local indent-tabs-mode nil)
-  (setq-local comment-start "//")
+  (set (make-local-variable 'indent-tabs-mode) nil)
+  (set (make-local-variable 'comment-start) "//")
   (use-local-map jape-mode-map)
   (setq font-lock-defaults '(jape-font-lock-keywords)))
 
