@@ -77,8 +77,13 @@
     jape-mode-syntax-table)
   "Syntax table for jape-mode.")
 
+(defalias 'jape-parent-mode
+  (if (fboundp 'prog-mode)
+	  'prog-mode
+	'fundamental-mode))
+
 ;;;###autoload
-(define-derived-mode jape-mode prog-mode "JAPE"
+(define-derived-mode jape-mode jape-parent-mode "JAPE"
   "Major mode for editting GATE's JAPE files.
 
 \\{jape-mode-map}"
