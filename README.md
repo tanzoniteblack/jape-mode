@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/tanzoniteblack/jape-mode.png?branch=master)](http://travis-ci.org/tanzoniteblack/jape-mode)
+
 # JAPE Mode
 
 Provides Emacs font-lock and basic syntax tables for the [JAPE (Java Annotation Pattern Engine) files](https://gate.ac.uk/sale/tao/splitch8.html#x12-2150008) for the [GATE (General Architecture for Text Engineering)](https://gate.ac.uk/).
