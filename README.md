@@ -6,7 +6,7 @@ As of Fri, 29 Aug 2014 this does not yet provide proper indentation or support f
 
 ## Installation
 
-Will hopefully be available on [MELPA][] in the future, but currently only available through manual install by placing in a location where emacs knows to read emacs-lisp files (such as in `.emacs.d/`) and require with `(require 'jape-mode)`.
+Will hopefully be available on MELPA in the future, but currently only available through manual install by placing in a location where emacs knows to read emacs-lisp files (such as in `.emacs.d/`) and require with `(require 'jape-mode)`.
 
 ## License
 
