@@ -1,3 +1,5 @@
+### All of this thanks to https://github.com/rolandwalker/emacs-travis
+
 EMACS=emacs
 
 EMACS_CLEAN=-Q

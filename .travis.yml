@@ -29,6 +29,8 @@
 ### but don't cause the creation of a separate variation
 ###
 
+### All of this thanks to https://github.com/rolandwalker/emacs-travis
+
 env:
   matrix:
 #   - EMACS=xemacs21
