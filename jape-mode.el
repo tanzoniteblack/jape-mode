@@ -89,6 +89,7 @@
   (set-syntax-table jape-mode-syntax-table)
   (set (make-local-variable 'indent-tabs-mode) nil)
   (set (make-local-variable 'comment-start) "//")
+  (setq-local electric-indent-inhibit t)
   (use-local-map jape-mode-map)
   (setq font-lock-defaults '(jape-font-lock-keywords)))
 
