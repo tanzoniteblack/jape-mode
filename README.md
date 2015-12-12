@@ -14,12 +14,12 @@ Work to be done yet, contributions welcome:
 ## Installation
 
 ### MELPA (Recommended)
-Available on [MELPA](http://melpa.milkbox.net/). To setup MELPA do:
+Available on [MELPA](https://melpa.org/). To setup MELPA do:
 
 ```el
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 ```
 
